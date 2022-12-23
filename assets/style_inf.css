@@ -1,0 +1,81 @@
+/*  import google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background:  #fff;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.titulo{
+    background: crimson;
+    color: #fff;
+    width: calc(20% - 5px);
+    text-align: center;
+    border-radius: 6px;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 20px 460px;
+     
+}
+
+.titulo p{
+    margin: 20px 25px;
+}
+
+.sub-titulo h2 {
+    background: crimson;
+    color: #fff;
+    position: relative;
+    width: calc(33% - 15px);
+    text-align: center;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px 390px;
+    
+}
+
+.linguagens h3{
+    color: crimson;
+   
+}
+
+.text{
+    margin: 20px;
+}
+
+.skills{
+    margin: 20px 25px;
+}
+
+
+footer{
+    background: #111;
+    padding: 15px 23px;
+    color: #fff;
+    text-align: center;
+}
+footer span a{
+    color: crimson;
+    text-decoration: none;
+}
+footer span a:hover{
+    text-decoration: underline;
+}
