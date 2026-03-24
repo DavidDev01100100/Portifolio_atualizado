@@ -12,7 +12,7 @@ body {
 .container {
     width: 900px;
     min-height: 1120px; /* Altura aproximada A4 */
-    margin: 40px auto;
+    margin: 20px auto;
     background: #ffffff;
     padding: 60px 60px 70px 60px;
     display: flex;
@@ -26,25 +26,25 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-bottom: 40px;
+    margin-bottom: 5px;
 }
 
 .header-text h1 {
     font-size: 50px;
     color: #4a4fb3;
     font-weight: normal;
-    margin-bottom: 10px;
+    margin-bottom: 2px;
 }
 
 .header-text h2 {
     font-size: 22px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     font-weight: normal;
 }
 
 .header-text p {
     font-size: 15px;
-    margin-bottom: 6px;
+    margin-bottom: 10px;
 }
 
 .header-photo img {
@@ -58,15 +58,15 @@ body {
 
 .divider {
     border-bottom: 2px solid #4a4fb3;
-    margin: 35px 0;
+    margin: 10px 0;
 }
 
 /* TITULOS */
 
 h3 {
     color: #4a4fb3;
-    margin-bottom: 20px;
-    margin-top: 35px;
+    margin-bottom: 5px;
+    margin-top: 5px;
     letter-spacing: 1px;
     font-size: 20px;
 }
@@ -74,11 +74,11 @@ h3 {
 /* PERFIL */
 
 .perfil {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .perfil p {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.8;
 }
 
@@ -87,7 +87,7 @@ h3 {
 .columns {
     display: flex;
     gap: 80px;
-    margin-top: 40px;
+    margin-top: 10px;
     flex: 1;
 }
 
@@ -99,7 +99,7 @@ h3 {
 }
 
 .right {
-    width: 45%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -108,12 +108,12 @@ h3 {
 /* JOB */
 
 .job {
-    margin-bottom: 45px;
+    margin-bottom: 30px;
 }
 
 .job h4 {
     font-size: 19px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .job p {
@@ -133,7 +133,7 @@ h3 {
 }
 
 .job li {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     font-size: 16px;
     line-height: 1.6;
 }
@@ -141,7 +141,7 @@ h3 {
 /* EDUCATION */
 
 .edu {
-    margin-bottom: 35px;
+    margin-bottom: 5px;
 }
 
 .edu h4 {
@@ -157,21 +157,21 @@ h3 {
 
 .right p {
     font-size: 16px;
-    margin-bottom: 12px;
+   margin-bottom: 5px;
 }
 
 /* SKILLS */
 
 .skills {
-    list-style: none;
+    
     columns: 2;
-    column-gap: 40px;
-    margin-top: 15px;
+    column-gap: 20px;
+    margin-top: 1px;
+    font-size: 16px;
 }
 
 .skills li {
-    margin-bottom: 12px;
-    font-size: 16px;
+    margin-bottom: 5px;
 }
 
 /* DIVISÃO VISUAL ENTRE COLUNAS */
